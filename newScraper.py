@@ -16,7 +16,7 @@ import time
 
 def runDriver(url):
     # Locate chromedriver executable and set environment
-    chromedriver = r'"C:\Users\Dunkr\AppData\Local\Programs\Python\Python36-32\Scripts\chromedriver.exe"'
+    chromedriver = r'"[YOUR PATH TO CHROMEDRIVER]"'
     os.environ["webdriver.chrome.driver"] = chromedriver
 
     # Enable adblock so ads won't affect searching
